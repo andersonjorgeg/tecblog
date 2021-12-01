@@ -1,0 +1,162 @@
+/* limpando as formatações */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+
+/* area de menu */
+header {
+  background-color: #f7b600;
+  height: 140px;
+  text-align: center;
+  padding: 15px;
+}
+#area-logo, .menu-principal {
+  padding: 10px;
+}
+
+.menu-principal li {
+  display: inline-block;
+}
+
+/* formatações gerais */
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em; 
+}
+
+h1 span {
+  color: #fff;
+  background-color: #4e4e4e;
+  border-radius: 3px;
+}
+
+/* formatação geral dos links da pagina*/
+a {
+  text-decoration: none;
+}
+
+/* :link e :visited são os links que não estão sendo clicados */
+.menu-principal li a:link, .menu-principal li a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.menu-principal li a:hover {
+  background-color: #fff;
+  color: #f7b600;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+/* main */
+main {
+  width: 75%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* postagens */
+.area-postagens {
+  width: 70%;
+}
+
+/* postagens */
+.postagens {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.postagens h2 {
+  color: #f7b600;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.postagens span {
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.postagens img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.postagens p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  color: #4e4e4e;
+}
+
+.leia-mais a:link, .postagens a:visited {
+  color: #f7b600;
+  padding: 5px 10px;
+}
+
+.leia-mais a:hover {
+  color: #fff;
+  background-color: #f7b600;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  transition: 0.5s;
+}
+
+/* menu lateral */
+.area-lateral {
+  width: 28%;
+}
+
+.postagens-recentes, .categoria {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.post {
+  margin-bottom: 10px;
+  border-top: 2px solid #e6e6e6;
+}
+
+.post p {
+  font-size: 0.8em;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.post a {
+  color: #f7b600;
+  padding: 5px 10px;
+}
+
+.area-lateral h3 {
+  background-color: #ccc;
+  padding: 5px;
+}
+
+.categoria li {
+  margin: 5px 0;
+}
+
+.categoria a {
+  color: #f7b600;
+}
+
+footer {
+  background-color: #ccc;
+  text-align: center;
+  padding: 15px;
+}
